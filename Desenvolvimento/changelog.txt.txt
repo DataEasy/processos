@@ -1,0 +1,19 @@
+v0:
+    - Processo inicial da equipe. Nunca formalizado ou modelado.
+
+v1 (Processo atual):
+    - <Escrever restante das mudanças implantadas>
+    - Adoção do SemVer.org
+    - Adoção da política de "feature branches"
+    - Etapas "Pronto pra Merge"
+    - Revisão de código distribuída
+
+v2:
+    - Sub-processo de Teste melhorado, de acordo com as consultorias Freetest
+        - Testes exploratórios
+        - Testes funcionais
+        - Testes de regressão
+        - Testes de aceitação
+    - Sub-processo de Implementação: Inserção de testes unitários
+    - Sub-processo de "Disponibilizar para Teste": Desenvolvedor avalia o impacto e registra para o testador
+    - Sub-processos de Testes (Funcionais, Exploratórios, de Regressão e de Aceitação)

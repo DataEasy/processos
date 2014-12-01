@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="pt-BR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Processos DataEasy</title>
+        <link rel="stylesheet" href="web/foundation-5.4.7/css/foundation.css" />
+        <script src="web/foundation-5.4.7/js/vendor/modernizr.js"></script>
+        <style type="text/css">
+            body {
+                background-image: url(web/bg.png);
+                background-repeat: repeat-x;
+            }
+            .accordion .content dd {
+                padding-left: 2rem;
+            }
+            .accordion ul {
+                margin-bottom: 0;
+            }
+            .accordion .accordion-navigation > a {
+                font-size: 1.3rem;
+                border-bottom: 1px solid #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="large-12 columns">
+                <img src="web/logo.png" alt="Logo DataEasy" />
+
+                <div class="panel radius">
+                    <h3>Processos da DataEasy em padrão BPMN</h3>
+                    <p>Sugestões e críticas são mais que bem-vindas: incentivadas.</p>
+                    <p>Atualmente a modelagem é feita via <a href="http://www.bizagi.com/en/bpm-suite/bpm-products/modeler">Bizagi Modeler</a> e exportada (para vizualição nessa página) via "Publish to Web".</p>
+                    <p>Os arquivos <kbd>.bpm</kbd> estão compartilhados na <a href="https://drive.google.com/a/dataeasy.com.br/folderview?id=0B7Vu_xh5nNusUi1xUTQ5ZG9odTg&usp=sharing">pasta "Processos" no Google Drive</a>. Caso não tenha acesso à mesma, favor solicitar.</p>
+                </div>
+
+                <dl class="accordion" data-accordion>
+                    <dd class="accordion-navigation">
+                        <a href="#desenvolvimento">❯ Desenvolvimento</a>
+                        <div id="desenvolvimento" class="content">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <div class="large-8 medium-8 columns">
+                                        <div class="panel radius">
+                                            <p>Processo de desenvolvimento do Desenvolvimento, atualmente apenas da equipe <strong>DocFlow</strong>.</p>
+                                            <h4>Histórico</h4>
+                                            <dl>
+                                                <dt><span class="label round">v0</span></dt>
+                                                <dd>Processo até Julho 2014. Não documentado ou mapeado.</dd>
+
+                                                <dt><span class="label round">v1</span></dt>
+                                                <dd>
+                                                    <ul>
+                                                        <li>Adoção do SemVer.org</li>
+                                                        <li>Adoção da política de "feature branches"</li>
+                                                        <li>Etapas "Pronto pra Merge"</li>
+                                                        <li>Revisão de código distribuída</li>
+                                                    </ul>
+                                                </dd>
+
+                                                <dt><span class="label round">v2</span></dt>
+                                                <dd>
+                                                    <strong>Processo futuro.</strong>
+                                                    <ul>
+                                                        <li>Sub-processo de Teste melhorado, conforme Freetest:
+                                                            <ul>
+                                                                <li>Testes exploratórios</li>
+                                                                <li>Testes funcionais</li>
+                                                                <li>Testes de regressão</li>
+                                                                <li>Testes de aceitação</li>
+                                                            </ul>
+                                                        </li>
+                                                        <li>Sub-processo de Implementação: Inserção de testes unitários</li>
+                                                        <li>Sub-processo de "Disponibilizar para Teste": Desenvolvedor avalia o impacto e registra para o testador</li>
+                                                        <li>Sub-processos de Testes (Funcionais, Exploratórios, de Regressão e de Aceitação)</li>
+                                                    </ul>
+                                                </dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                    <div class="large-4 medium-4 columns">
+                                        <div class="panel callout radius">
+                                            <h5>Acesse:</h5>
+                                            <p>
+                                                <a href="./Desenvolvimento/v1/web/index.html" target="_blank" class="tiny round button">v1</a>
+                                                <a href="./Desenvolvimento/v2/web/index.html" target="_blank" class="tiny round button">v2</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dd>
+
+                    <dd class="accordion-navigation">
+                        <a href="#analise-de-requisitos">❯ Análise de Requisitos</a>
+                        <div id="analise-de-requisitos" class="content">
+                            <div class="row">
+                                <div class="large-12 columns">
+                                    <div class="large-8 medium-8 columns">
+                                        <div class="panel radius">
+                                            <p>Processo de Análise de Requisitos.</p>
+                                            <h4>Histórico</h4>
+                                            <dl>
+                                                <dt><span class="label round">v1</span></dt>
+                                                <dd>Em breve...</dd>
+
+                                                <dt><span class="label round">v2</span></dt>
+                                                <dd>Em breve...</dd>
+                                            </dl>
+                                        </div>
+                                    </div>
+
+                                    <div class="large-4 medium-4 columns">
+                                        <div class="panel callout radius">
+                                            <h5>Acesse:</h5>
+                                            <p>
+                                                <a href="./Análise%20de%20Requisitos/v1%20-%202014-06-26/web/index.html" target="_blank" class="tiny round button">v1</a>
+                                                <a href="./Análise%20de%20Requisitos/v2%20-%202014-11-18/web/index.html" target="_blank" class="tiny round button">v2</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <script src="web/foundation-5.4.7/js/vendor/jquery.js"></script>
+        <script src="web/foundation-5.4.7/js/foundation.min.js"></script>
+        <script>
+            $(document).foundation();
+        </script>
+    </body>
+</html>
