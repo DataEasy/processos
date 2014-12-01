@@ -1,10 +1,4 @@
-#!/usr/bin/env expect -f
-spawn ssh -o "StrictHostKeyChecking no" processos@processos.dataeasy.com.br rm -rf *
-expect "password:"
-send "processos\r"
+#!/usr/bin/env sh
+ssh -o "StrictHostKeyChecking no" processos@processos.dataeasy.com.br rm -rf *
+scp -C -o "StrictHostKeyChecking no" -r . processos@processos.dataeasy.com.br:.
 
-spawn scp -C -o "StrictHostKeyChecking no" -r . processos@processos.dataeasy.com.br:.
-expect "password:"
-send "processos\r"
-
-expect eof
