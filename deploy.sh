@@ -5,10 +5,10 @@ if [ "${JENKINS_SSH_KEY_FILE}x" != "x" ]; then
     SSH_PARAM="$SSH_PARAM -i $JENKINS_SSH_KEY_FILE"
 fi
 
-rsync -rvz \
+rsync -hrvz \
     -e "ssh ${SSH_PARAM}" \
     --exclude=.git/ \
-    --exclude=publish.sh \
+    --exclude=${0##*/} \
     --exclude=Icon* \
     --exclude=.gitignore \
     --exclude=.DS_Store \
