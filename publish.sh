@@ -1,11 +1,15 @@
-#!/usr/bin/env sh
-OPTION=$JENKINS_SSH_KEY_FILE
-PARAM="-i $JENKINS_SSH_KEY_FILE"
+#!/usr/bin/env bash
 
-if [ "${OPTION+x}" = "x" ]; then
-    PARAM=""
+SSH_PARAM='-o "StrictHostKeyChecking no"'
+if [ "${JENKINS_SSH_KEY_FILE}x" != "x" ]; then
+    SSH_PARAM="$SSH_PARAM -i $JENKINS_SSH_KEY_FILE"
 fi
 
-ssh -o "StrictHostKeyChecking no" $PARAM processos@processos.dataeasy.com.br rm -rf *
-scp -C -o "StrictHostKeyChecking no" $PARAM -r . processos@processos.dataeasy.com.br:.
-
+rsync -rvz \
+    -e "ssh ${SSH_PARAM}" \
+    --exclude=.git/ \
+    --exclude=publish.sh \
+    --exclude=Icon* \
+    --exclude=.gitignore \
+    --exclude=.DS_Store \
+    . processos@processos.dataeasy.com.br:.
