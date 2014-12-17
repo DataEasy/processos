@@ -13,3 +13,6 @@ rsync -hrvz \
     --exclude=.gitignore \
     --exclude=.DS_Store \
     . processos@processos.dataeasy.com.br:.
+
+# Fix permissions so web server can serve generated static files:
+eval "ssh $SSH_PARAM processos@processos.dataeasy.com.br chmod -R 755 ."
