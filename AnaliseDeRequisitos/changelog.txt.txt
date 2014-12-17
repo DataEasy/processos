@@ -1,0 +1,13 @@
+v1 (Processo legado):
+    - Formalização do processo utilizado para análise de requisitos
+	- Novos passos para atender a área de requisitos do guia MPSBR nível G
+
+v2 (Processo atual):
+    - Processo melhorado, mais adequado a realidade DataEasy
+	- Sub-processos atualizados e adaptados ao dia a dia da empresa
+	- Sub-processo de análise de requisitos contemplando
+        - Análise
+        - Aceite
+		- Abstração de informações da fonte de requisitos
+		- Apoio das áreas interessadas da empresa para análise dos requisitos
+    
