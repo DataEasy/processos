@@ -1,38 +1,49 @@
-#!/usr/bin/env sh
-
-# NOTE: Execute this file from the same dir where the *.svg and *.graphml are.
+#!/usr/bin/env bash
+shopt -s globstar
 
 #
-# Updating the links in the `.svg` files otherwise they will keep pointing
+# Updating the links in the `.svg` or `.graphml` files otherwise they will keep pointing
 # to the `.graphml` files they came from
 #
+updateLinks () {
+    find='.graphml'
+    replace='.svg'
+    currentDirectory='./'
 
-find='.graphml'
-replace='.svg'
+    for file in **/*$1; do
 
-for file in *.svg; do
-    sed -i '' "s/$find/$replace/g" $file
+        sed -i "s/$find/$replace/g" $file 
+        echo $1
+        if [ $? -ne 0 ]; then
+           echo "Error updating links on.svg: $file"
+           exit 1
+        fi
 
-    if [ $? -ne 0 ]; then
-        echo "Error updating links on svg: $file"
-        exit 1
-    fi
-done
+    done
+}
 
 #
-# Updating any absolute file path inside `.graphml` files to relative ones
+# Updating any absolute file path inside files to relative ones
 #
+updatePath () {
+    relFolder='.'
+    absFolder=''
 
-rel_parent_dir='.'
-abs_parent_dir=`pwd`
+    for file in **/*$1; do
+        folder=`dirname $file`
+        absFolder=$(cd ${file%/*}; pwd)
+        sed -i "s#$absFolder#$relFolder#g" $file
+        echo $1
+        if [ $? -ne 0 ]; then
+            echo "Error updating paths on graphml: $file"
+            exit 1
+        fi
 
-for file in *.graphml; do
-    sed -i '' "s#$abs_parent_dir#$rel_parent_dir#g" $file
+    done
+}
 
-    if [ $? -ne 0 ]; then
-        echo "Error updating paths on graphml: $file"
-        exit 1
-    fi
-done
+updateLinks ".svg"
+updatePath ".graphml"
+updatePath ".svg"
 
 exit 0
