@@ -507,7 +507,7 @@ disponível para teste<y:LabelModel>
           </data>
         </node>
         <node id="n0::n16" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Disponibilizar-para-equipe-de-teste.graphml]]></data>
+          <data key="d4"><![CDATA[./Disponibilizar-para-equipe-de-teste.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">

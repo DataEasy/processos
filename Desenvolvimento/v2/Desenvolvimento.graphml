@@ -706,7 +706,7 @@ Priorizar<y:LabelModel>
           </data>
         </node>
         <node id="n2::n4" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Implementar.graphml]]></data>
+          <data key="d4"><![CDATA[./subprocessos/Implementar.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -766,7 +766,7 @@ Priorizar<y:LabelModel>
           <graph edgedefault="directed" id="n2::n4:"/>
         </node>
         <node id="n2::n5" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Testar.graphml]]></data>
+          <data key="d4"><![CDATA[./subprocessos/Testar.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -1083,7 +1083,7 @@ documentação<y:LabelModel>
           </data>
         </node>
         <node id="n2::n16" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Versionamento-do-sistema.graphml]]></data>
+          <data key="d4"><![CDATA[./subprocessos/Versionamento-do-sistema.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -1193,7 +1193,7 @@ calendário de Releases<y:LabelModel>
           </data>
         </node>
         <node id="n2::n19" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Notificar-equipes.graphml]]></data>
+          <data key="d4"><![CDATA[./subprocessos/Notificar-equipes.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
