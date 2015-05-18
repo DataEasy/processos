@@ -5,17 +5,16 @@ shopt -s globstar
 # Updating the links in the `.svg` or `.graphml` files otherwise they will keep pointing
 # to the `.graphml` files they came from
 #
-updateLinks () {
+updateFileExtension () {
     find='.graphml'
     replace='.svg'
     currentDirectory='./'
 
-    for file in **/*$1; do
+    for file in **/*.svg; do
 
-        sed -i "s/$find/$replace/g" $file 
-        echo $1
+        sed -i "s#$find#$replace#g" $file 
         if [ $? -ne 0 ]; then
-           echo "Error updating links on.svg: $file"
+           echo "Error updating links on .svg: $file"
            exit 1
         fi
 
@@ -33,16 +32,15 @@ updatePath () {
         folder=`dirname $file`
         absFolder=$(cd ${file%/*}; pwd)
         sed -i "s#$absFolder#$relFolder#g" $file
-        echo $1
         if [ $? -ne 0 ]; then
-            echo "Error updating paths on graphml: $file"
+            echo "Error updating paths on file: $file"
             exit 1
         fi
 
     done
 }
 
-updateLinks ".svg"
+updateFileExtension
 updatePath ".graphml"
 updatePath ".svg"
 
