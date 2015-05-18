@@ -222,7 +222,7 @@ de teste<y:LabelModel>
           </data>
         </node>
         <node id="n0::n4" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Testes-exploratórios.graphml]]></data>
+          <data key="d4"><![CDATA[./Testes-exploratórios.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -283,7 +283,7 @@ de teste<y:LabelModel>
           <graph edgedefault="directed" id="n0::n4:"/>
         </node>
         <node id="n0::n5" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Testes-funcionais.graphml]]></data>
+          <data key="d4"><![CDATA[./Testes-funcionais.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -344,7 +344,7 @@ de teste<y:LabelModel>
           <graph edgedefault="directed" id="n0::n5:"/>
         </node>
         <node id="n0::n6" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Registrar-defeito.graphml]]></data>
+          <data key="d4"><![CDATA[./Registrar-defeito.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -396,7 +396,7 @@ de teste<y:LabelModel>
           <graph edgedefault="directed" id="n0::n6:"/>
         </node>
         <node id="n0::n7" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Testes-de-regressão.graphml]]></data>
+          <data key="d4"><![CDATA[./Testes-de-regressão.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
@@ -528,7 +528,7 @@ de teste<y:LabelModel>
           </data>
         </node>
         <node id="n0::n11" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Testes-de-aceitação.graphml]]></data>
+          <data key="d4"><![CDATA[./Testes-de-aceitação.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">

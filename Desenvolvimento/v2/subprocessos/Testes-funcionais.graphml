@@ -199,7 +199,7 @@ encontrado?<y:LabelModel>
           </data>
         </node>
         <node id="n0::n5" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/home/fabio/Documentos/DocFlow/BPMN/Diagramas_de_processos_DE/subprocessos/Registrar-defeito.graphml]]></data>
+          <data key="d4"><![CDATA[./Registrar-defeito.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">

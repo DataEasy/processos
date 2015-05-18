@@ -33,150 +33,193 @@
       <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
         <path d="M73 -172 L938 -172 L938 227 L73 227 L73 -172 Z"/>
       </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-        <path d="M266.7253 -19.5 L266.7253 845.5 L-132.2747 845.5 L-132.2747 -19.5 L266.7253 -19.5 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-        <path d="M258.4023 -48.5 L258.4023 816.5 L-140.5977 816.5 L-140.5977 -48.5 L258.4023 -48.5 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-        <path d="M-70 -183.5 L795 -183.5 L795 215.5 L-70 215.5 L-70 -183.5 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-        <path d="M-156.5 -171 L708.5 -171 L708.5 228 L-156.5 228 L-156.5 -171 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-        <path d="M-308 -171 L557 -171 L557 228 L-308 228 L-308 -171 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-        <path d="M-435.5732 -168 L429.4268 -168 L429.4268 231 L-435.5732 231 L-435.5732 -168 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
-        <path d="M-596 -183.5 L269 -183.5 L269 215.5 L-596 215.5 L-596 -183.5 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-        <path d="M-422.6738 -35.0156 L442.3262 -35.0156 L442.3262 363.9844 L-422.6738 363.9844 L-422.6738 -35.0156 Z"/>
-      </clipPath>
-      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-        <path d="M-236.1064 -48 L628.8936 -48 L628.8936 351 L-236.1064 351 L-236.1064 -48 Z"/>
-      </clipPath>
     </defs>
     <g fill="white" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="translate(-73,172)" stroke="white">
       <rect x="73" width="865" height="399" y="-172" clip-path="url(#clipPath2)" stroke="none"/>
     </g>
-    <g fill="rgb(255,242,188)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke="rgb(255,242,188)">
-      <path d="M88.5 -156.9844 L88.5 211.9688 L118.5 211.9688 L118.5 -156.9844 Z" stroke="none" clip-path="url(#clipPath2)"/>
-      <rect x="118.5" width="804" height="368.9531" y="-156.9844" clip-path="url(#clipPath2)" stroke="none"/>
-      <rect x="118.5" y="-156.9844" clip-path="url(#clipPath2)" fill="white" width="804" height="368.9531" stroke="none"/>
+    <g id="y.node.0">
+      <g fill="rgb(255,242,188)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke="rgb(255,242,188)">
+        <path d="M88.5 -156.9844 L88.5 211.9688 L118.5 211.9688 L118.5 -156.9844 Z" stroke="none"/>
+        <rect x="118.5" width="804" height="368.9531" y="-156.9844" stroke="none"/>
+        <rect fill="white" x="118.5" width="804" height="368.9531" y="-156.9844" stroke="none"/>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <rect fill="none" x="88.5" width="834" height="368.9531" y="-156.9844"/>
+      </g>
+      <g>
+        <g font-size="15" stroke-linecap="butt" transform="matrix(-0,-1,1,-0,19.5,266.7253)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+          <text x="2" xml:space="preserve" y="15.9233" stroke="none">Testes funcionais</text>
+        </g>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(-0,-1,1,-0,48.5,258.4023)" stroke-linecap="butt">
+          <text x="2" xml:space="preserve" y="13.1387" stroke="none">Equipe de Teste</text>
+        </g>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <rect fill="none" x="118.5" width="804" height="368.9531" y="-156.9844"/>
+        <rect fill="none" x="118.5" width="804" height="368.9531" y="-156.9844"/>
+      </g>
+      <g>
+        <g font-size="15" stroke-linecap="butt" transform="matrix(-0,-1,1,-0,19.5,266.7253)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
+          <text x="2" xml:space="preserve" y="15.9233" stroke="none">Testes funcionais</text>
+        </g>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(-0,-1,1,-0,48.5,258.4023)" stroke-linecap="butt">
+          <text x="2" xml:space="preserve" y="13.1387" stroke="none">Equipe de Teste</text>
+        </g>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <rect fill="none" x="88.5" width="834" height="368.9531" y="-156.9844" clip-path="url(#clipPath2)"/>
+    <g id="y.node.1">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,70,183.5)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="51" y="0" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA7CAYAAADW8rJHAAACy0lEQVR42u2ZiW7D&#10;IAyGMaXHuvd/1S5rDtZIIP2yzBVIWk1YsuiRgy82xnaU6tKlS5f/ILTzNaXrWzZ+&#10;JAwF1P+HEJJ+BMx6DQ0jKkLhxBemFsa3wBAAnJwa+HxiQAgyO53g8wxA9kgYhFgB&#10;zkwNwGg4bwGYUVAOtTuMBpB14teXXmDkMCHLTA7g96VPGEf3XzGQ2WgR4yZ+A/Uw&#10;HoTAKhgA/CQnpxcHgg9AbQEyhSDera4O4Ould/f96v7ji18KzdYdOwuuiecUAZkN&#10;a8Rb5O70C9xLC2FZBYC0ECw0nOcBxj1g/BpBi9yZRShzHeI6IiGELyyEZ0U4s3Gd&#10;eItcA+6hArs8BaAUs4iHmFgEjMopM3r5dbICfLvx5iwlgdjCKErC75aF6qUWhruX&#10;d62bs9KJ7SMlOVfMSggz5e49umDhn2GhnytBQscS24gv7KFRCxi+y+tKkNiaQm/w&#10;IdtkzDV6AAlpiwk8pZoE0SZSJdPaMlLyuGeNRczldAsYJaT21NAqKetgHkg1MJQo&#10;uI6qhLPvrQsv/NGlvd7gCvZgGJvr0jpxEctyJbtj6Z1z/2rLYG60tKjVM61hS++r&#10;My+aqtOpoVWkXsGckzmn3GxhZW4sT6KG7iXdc25hGWxAPKHxYCuBckDwftVupqCu&#10;QJgx8qSoAYi/F29wVNczfEcOlbkUSedTv+Pa9B2bn5c+3OexNYwSUowYkMrcvS2r&#10;XTzIqoP7PreECU1OB0rflLvZBMjDjdlW2QKjGkUxG3CtAUCGxNqshrFK7uaHUg8b&#10;2M15V3MA13owkCV3cqYQxEc2qYtyi7RmQxnFBK3ZATQ7gtW0ZxGIh9Ix0muO7SNP&#10;ode8qXluNvr7wtzGT+wCpS5vDPLjJxV/C7BfrVBQVptIiZ37fka9A0YJoTpVYsfe&#10;nB1TxTUsc3d5n3lUKVzauu3SpUuXLl26dOnSpctu8gcQ72tcRWdt4gAAAABJRU5E&#10;rkJggg=="/>
+        <path fill="url(#linearGradient1)" d="M181 34.5 C181 42.7843 174.2843 49.5 166 49.5 C157.7157 49.5 151 42.7843 151 34.5 C151 26.2157 157.7157 19.5 166 19.5 C174.2843 19.5 181 26.2157 181 34.5 Z" transform="matrix(1,0,0,1,-143,-11.5)" stroke="none" image-rendering="auto"/>
+      </g>
+      <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(39,174,39)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,174,39)" stroke-miterlimit="1.45">
+        <path fill="none" d="M181 34.5 C181 42.7843 174.2843 49.5 166 49.5 C157.7157 49.5 151 42.7843 151 34.5 C151 26.2157 157.7157 19.5 166 19.5 C174.2843 19.5 181 26.2157 181 34.5 Z"/>
+      </g>
+      <g/>
     </g>
-    <g font-size="15" stroke-linecap="butt" transform="matrix(-0,-1,1,-0,19.5,266.7253)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="2" xml:space="preserve" y="15.9233" clip-path="url(#clipPath3)" stroke="none">Testes funcionais</text>
+    <g id="y.node.2">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,156.5,171)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="106" y="0" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABMCAYAAACF1CK8AAAB+0lEQVR42u2dYW+C&#10;QAxAj+PUbf//v24qctOkTbobSim4ZNt7SRMxSEwf7QEfSkoAAAAA8Pfpgr/pVh7j&#10;P1Kbz/VZom77ZiOqQ1JIlo3RK6xbUEE3Sb1EbqSBX9IocZHQ7YcUp6he9t1JFCOM&#10;9udveypouMbZRJqTVRySsux3kHi5xt6IQpJf1mgkfUjuqmx3j9pgcVbTTgS9XeNV&#10;RBVaX1jUyXSj0dP+iqOaVNRBJFlRsOxiTEX18t1Fqmkwa9bq1rdvoif3oarKRpKu&#10;97NLyFxFtVd7xXym5cUqKptcFu9a76mobuIe6tHNHEznsd4pAtc6nxc+jUDS+qcS&#10;oYcO+Yl/ADYkkwJEAaIQBYgCRCEKEAWIQhQgChCFKEAUIApRgChAFKIAUYgCRAGi&#10;EAWIAkQhChAFiEIUIAoQhShAFCAKUYAoRAGiAFGIcsA8pF9UUcj6gRx5Z+7ZgbXI&#10;isuqd/K6WpQdVmujppnRmhDKaUiUrSIdWGsnNSJpeUXZ6cyaS9dIbU9F6UFPEjr5&#10;kuGKy1FRJxNnIyxcUXrg28GO6ess1IKokCg96d8lp8Pa1mdl6fhnrTA7CxX8XExF&#10;HSXOnqXEK2pozoh2QD34r5zbAfVDcrxJwNu6eOXDdqKmXvlQtxKV0veXpyApLqs6&#10;7k03u1FFUlwWAAAAAMAEn9M1oVvvzzG3AAAAAElFTkSuQmCC"/>
+        <rect x="237.5" y="7" transform="matrix(1,0,0,1,-229.5,1)" fill="url(#linearGradient2)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
+      </g>
+      <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
+        <rect x="237.5" y="7" fill="none" width="85" rx="4" ry="4" height="55"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="254.1279" xml:space="preserve" y="31.6699" stroke="none">Preparar</text>
+          <text x="251.4648" xml:space="preserve" y="45.6387" stroke="none">ambiente</text>
+        </g>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(-0,-1,1,-0,48.5,258.4023)" stroke-linecap="butt">
-      <text x="2" xml:space="preserve" y="13.1387" clip-path="url(#clipPath4)" stroke="none">Equipe de Teste</text>
+    <g id="y.node.3">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,308,171)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="106" y="0" height="76" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABMCAYAAACF1CK8AAAB+0lEQVR42u2dYW+C&#10;QAxAj+PUbf//v24qctOkTbobSim4ZNt7SRMxSEwf7QEfSkoAAAAA8Pfpgr/pVh7j&#10;P1Kbz/VZom77ZiOqQ1JIlo3RK6xbUEE3Sb1EbqSBX9IocZHQ7YcUp6he9t1JFCOM&#10;9udveypouMbZRJqTVRySsux3kHi5xt6IQpJf1mgkfUjuqmx3j9pgcVbTTgS9XeNV&#10;RBVaX1jUyXSj0dP+iqOaVNRBJFlRsOxiTEX18t1Fqmkwa9bq1rdvoif3oarKRpKu&#10;97NLyFxFtVd7xXym5cUqKptcFu9a76mobuIe6tHNHEznsd4pAtc6nxc+jUDS+qcS&#10;oYcO+Yl/ADYkkwJEAaIQBYgCRCEKEAWIQhQgChCFKEAUIApRgChAFKIAUYgCRAGi&#10;EAWIAkQhChAFiEIUIAoQhShAFCAKUYAoRAGiAFGIcsA8pF9UUcj6gRx5Z+7ZgbXI&#10;isuqd/K6WpQdVmujppnRmhDKaUiUrSIdWGsnNSJpeUXZ6cyaS9dIbU9F6UFPEjr5&#10;kuGKy1FRJxNnIyxcUXrg28GO6ess1IKokCg96d8lp8Pa1mdl6fhnrTA7CxX8XExF&#10;HSXOnqXEK2pozoh2QD34r5zbAfVDcrxJwNu6eOXDdqKmXvlQtxKV0veXpyApLqs6&#10;7k03u1FFUlwWAAAAAMAEn9M1oVvvzzG3AAAAAElFTkSuQmCC"/>
+        <rect x="389" y="7" transform="matrix(1,0,0,1,-381,1)" fill="url(#linearGradient3)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
+      </g>
+      <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
+        <rect x="389" y="7" fill="none" width="85" rx="4" ry="4" height="55"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="412.5215" xml:space="preserve" y="38.6543" stroke="none">Testar</text>
+        </g>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <rect fill="none" x="118.5" width="804" height="368.9531" y="-156.9844" clip-path="url(#clipPath2)"/>
-      <rect fill="none" x="118.5" width="804" height="368.9531" y="-156.9844" clip-path="url(#clipPath2)"/>
+    <g id="y.node.4">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,435.5732,168)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="99" y="0" height="113" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABxCAYAAADBJR0FAAADQklEQVR42u2cjW6j&#10;MBAGbXD+eu//qpe0SfAFyehWlgmGgvFGM5JFpbQqMNndDxJhDAAAAAAAAAAAAAAA&#10;JLAfsP9WHIcXCxmFJTRhSRmdWKpwikW0Yf9dENLzfK1H2BptQpxCEU0QcXitY1ht&#10;eL0X8ROW0SbEKRZxeq1L2B5Ci7qH1+P22yFjOxHnIOIr/OwmZKgQ4hSL+CMqY5Bx&#10;EPPDaBPiFIk4hhP/FdYliDkKAW1GQuyQsa6IoT0dwutNqIzcqN4hY1l8zREx/L6f&#10;cUwdMpalpikR8d+qFOIqF3EeEeGi2yAxKoU4RSJOoiLeibBahThlFZFqTT6SoLZC&#10;XGUicod1LMIk0pS6CnGVVcRpxoxI3SZPVcnYULe1CXEKWtPUsJ7zv9yIvCqEuApF&#10;XKLWlFMRH1EhbmcRqRlxypwRH1chrjIR55VFeE0py32wCHUpyxUUYRfe4liDVIVU&#10;d+ukpIzUB0OXBfG1pBCfWKplyAM+iuS0RmpaImQqZfmoGrzYPrc8UW0BGXJOnKPW&#10;NHxK1xQQ8S7OyjeCjWQ8xdZvfaJKzYvh3SdXU6giTEaUlQFjbD+Ndhk5ed5nXIRt&#10;WRml3gS7y/Ci7/alfg/rIVpASSF2Yh8f0T4+xMzYlLaQdButJtqmerYtJCMW0X8B&#10;7vu1rmHdgpjNvzLaFq5EPzJLSgixmSL6k/83rFsQ8yxxndEWlpDK6qWE5Ii4ChHX&#10;IOJRIkmVvh3Szdin+Ks39hcnI2dGfEcVMYi4lxKxZ5vyb9rWmhWSI+KnBhF7yCgt&#10;xGqoiD1lvBOy1lBfMqx3FbGnjDEhfiUhS4f1biL2lpEjZG7LslpF1CBjzdirJjXV&#10;EG2Xxl67MPaqElFLZWzRstSJqE3Gb2OvmtSkRUZO7E0Jke1KxbDWImNpyzIaW5MG&#10;GXOFyCCgUkTtMsZirx+R4c3/D4bUiagp2i6JvVKOfEKCShFaZExdh/QnWT4h4aZR&#10;hCYZKSFetKbhOAYZN20itMkYE3IXxyEf5KJKhEYZUsgQY+9iZshHHKkSkbp61bbv&#10;7x7+5TUekFEuxEQyjFH6WDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAgM/hHz7Oqk6dug4tAAAAAElFTkSuQmCC"/>
+        <path fill="url(#linearGradient4)" d="M556 12 L578.5 34.5 L556 57 L533.5 34.5 Z" transform="matrix(1,0,0,1,-508.5732,4)" stroke="none" image-rendering="auto"/>
+      </g>
+      <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(227,139,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(227,139,0)" stroke-miterlimit="1.45">
+        <path fill="none" d="M556 12 L578.5 34.5 L556 57 L533.5 34.5 Z"/>
+      </g>
+      <g/>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="543.6045" xml:space="preserve" y="77.7895" stroke="none">Erro</text>
+          <text x="518.5732" xml:space="preserve" y="91.7582" stroke="none">encontrado?</text>
+        </g>
+      </g>
     </g>
-    <g font-size="15" stroke-linecap="butt" transform="matrix(-0,-1,1,-0,19.5,266.7253)" text-rendering="geometricPrecision" font-family="sans-serif" shape-rendering="geometricPrecision" stroke-miterlimit="1.45">
-      <text x="2" xml:space="preserve" y="15.9233" clip-path="url(#clipPath3)" stroke="none">Testes funcionais</text>
+    <g id="y.node.5">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,596,183.5)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="51" y="0" height="59" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA7CAYAAADW8rJHAAAC/ElEQVR42u2ZiY6j&#10;MAyGcwBtp/v+jzrblkKGkWzpl+VArnZWO7Fk0aqU8GHHF8Z06dKly/8g9oeuG/51&#10;GAtHVA0EtRmcbXQNVgfK33Gd75te4bjC91ALVQvDN+0j6gA0AMRC+oTPCPZWGCsg&#10;hk1HofybhOGbn4U+SddSKw2FIA4gpk1PpBPpCJZx8F9++nzj900fdLzTuTPBZu+l&#10;oQKEIc6bXgBopOs6sWcCALF1TgRzo//c6Fy2VBbQUADCLvUN8UF63gGRMLh3RvjP&#10;IPaZIaCXwXha/EIQV/p8Fq6l7UerhGh0Vy/CeRDWbAZjYdETAVzBKmPkZlICiBNR&#10;z4rQnRy2faZ7nQjgDx0vtHcG4VY5vo45yirBIjlk+8RcwhseLfJBcF7ZE7lpwSqW&#10;CSIHVcNoVrkKEHcAEnZyWgwIk+szFcglWmaAHDKJPRJzK+nnIXKO5gUj5C0ZWIph&#10;tAQ5ihAaMqviFCAO/xOEbntUsbjEzelFTnA7VknZMyHRG8ZXWcYrJUoojGB7D8Du&#10;rFtsGasAucR91qKtcJHqu9rNrOhPtCdcUrofuedRo5cdzWKd5Lta+uS1XMFTDIqP&#10;l/ZG9qB2y7K4SwCQrW4w75GQW864REusIguHBp3rkVVic4Iqy8jucIEL20Igm7Dm&#10;IlrptRUMX3QWQCaxdzEZ5+KaOB9oBsMDiAf06EcXt5FCMnc9LDSbBAC8OA8hjqyT&#10;AqFZZRHraGsV9zMpJUZJDpLnoWv93fSTjjdws2YwJjK5dBGXMhmWQte6EQjDNLfM&#10;HlSs5LAR1dz4GQG550xocmHCTvdoM8MvRq2HAPkkkDknUfsCEGP0KX6IFI5y6q9N&#10;NatBSiaaASaNRkS6GQaBXhk9yejIrsUwrHcR/s0rYXDSuCo3NsGEMvYW4AmhHmfN&#10;M1hkNYUburREP3oL4MSsYFUqCtTFVBSztX2Jln+GnVYXC0ft/UzVC6dWTZYM1bH8&#10;E5TRazVEa5hYq2siU5zQCqBLly5dunTp0qVLly6/Vr4ASFFqgh0KO1IAAAAASUVO&#10;RK5CYII="/>
+        <circle transform="matrix(1,0,0,1,-669,-11.5)" fill="url(#linearGradient5)" image-rendering="auto" r="13.75" cx="692" cy="34.5" stroke="none"/>
+      </g>
+      <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(177,31,31)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(177,31,31)" stroke-width="3" stroke-miterlimit="1.45">
+        <circle fill="none" r="13.75" cx="692" cy="34.5"/>
+      </g>
+      <g/>
     </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(-0,-1,1,-0,48.5,258.4023)" stroke-linecap="butt">
-      <text x="2" xml:space="preserve" y="13.1387" clip-path="url(#clipPath4)" stroke="none">Equipe de Teste</text>
+    <g id="y.node.6">
+      <a target="_blank" xlink:type="simple" xlink:href="./Registrar-defeito.svg" xlink:show="new">
+        <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,422.6738,35.0156)" image-rendering="optimizeQuality">
+          <image preserveAspectRatio="none" x="0" width="125" y="0" height="104" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABoCAYAAADcm/8NAAACk0lEQVR42u3di27i&#10;MBBA0Rho6e7/f+zClnhBsrVWxCvgEiecK41CVZUG38zYDoLpOgAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAOBEmPnzL5k4JymhOAbinxIei2hW+un5VoMIsn608Bx9EdXk&#10;b35A+CbFOh1XhD8k/ST6u4hDa9JL4Z8ptsf4SPKV+XHSs/C/x9ilyPQtSV8nyV/H&#10;+JWOn+l/kD5O+iFJ36VxHZb92KL030n855lMj7xeXVuVmZ4T5jCIyTM9l/YsfZvE&#10;bwvpGEdfjNshlfl9sT6KLUgv5/SPIvJCDuPIcvtiHNe1FsWbiieZs319Zrv2kpsO&#10;Cynv57a/t8Z00i3btRsyZN++GRNujGu1DH3li0ID42S+fdMFA0gH6SAdpIN0kA7S&#10;QTpIB+kgHaSDdJAO0kE66YaAdJAO0kE6SMdM2Czotbzio9BRpoN0KO9LKPlRps9L&#10;9qPfavXM38r0hjI93MjeSx8RjqQvS/SlMh6WLn+18AyfwzaQdCjvU6y449JX8Js3&#10;vdjDO2zNlPfbK3XlXaaTbs5X3l0IMr290n2rfMeRc76bM7Ka9EdXzFOJDQ1fIGFp&#10;mf6qL/qPlYXFBY1N1Tl92GjmWveBKdqCPfIuW/m7OGHFil2jjXtK4bn7QP55NcFA&#10;hcHjR95liy/M9HvHs4r4TeWrMTebOUVu4zFFZ4dQWcCrybLzWOaOTX1L0suT3HX/&#10;e4/EQj7p95Mb9+zTeO5bk54H5pBOLkvu00WgW9P4C6zs1vQnHXNvtq416d1AeO7L&#10;tup0a7qnMsVB5dwXUS3TQ+UTz/1GcqOZ9UTlfe7ZHosF3PdgMdfczYCyc9OqeIzn&#10;tsBVMvyn98zhwhHj5vbqHZUBAAAAzIl/qXK7op1xQiMAAAAASUVORK5CYII="/>
+          <rect x="513.5" y="-100.5" transform="matrix(1,0,0,1,-495.6738,136.9844)" fill="url(#linearGradient6)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
+        </g>
+        <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
+          <rect x="513.5" y="-100.5" fill="none" width="85" rx="4" ry="4" height="55"/>
+        </g>
+        <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill-opacity="0" fill="rgb(0,0,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(0,0,0)" stroke-opacity="0" stroke-miterlimit="1.45">
+          <path d="M548.5 -64.5 L563.5 -64.5 L563.5 -49.5 L548.5 -49.5 Z" stroke="none"/>
+        </g>
+        <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <path fill="none" d="M548.5 -64.5 L563.5 -64.5 L563.5 -49.5 L548.5 -49.5 Z"/>
+          <path fill="none" d="M552.16 -57 L559.84 -57 M556 -60.84 L556 -53.16"/>
+        </g>
+        <g/>
+        <g>
+          <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+            <text x="505.6738" xml:space="preserve" y="-115.8457" stroke="none">Registrar defeito</text>
+          </g>
+        </g>
+      </a>
     </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,70,183.5)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath5)" width="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA7CAYAAADW8rJHAAACy0lEQVR42u2ZiW7D&#10;IAyGMaXHuvd/1S5rDtZIIP2yzBVIWk1YsuiRgy82xnaU6tKlS5f/ILTzNaXrWzZ+&#10;JAwF1P+HEJJ+BMx6DQ0jKkLhxBemFsa3wBAAnJwa+HxiQAgyO53g8wxA9kgYhFgB&#10;zkwNwGg4bwGYUVAOtTuMBpB14teXXmDkMCHLTA7g96VPGEf3XzGQ2WgR4yZ+A/Uw&#10;HoTAKhgA/CQnpxcHgg9AbQEyhSDera4O4Ould/f96v7ji18KzdYdOwuuiecUAZkN&#10;a8Rb5O70C9xLC2FZBYC0ECw0nOcBxj1g/BpBi9yZRShzHeI6IiGELyyEZ0U4s3Gd&#10;eItcA+6hArs8BaAUs4iHmFgEjMopM3r5dbICfLvx5iwlgdjCKErC75aF6qUWhruX&#10;d62bs9KJ7SMlOVfMSggz5e49umDhn2GhnytBQscS24gv7KFRCxi+y+tKkNiaQm/w&#10;IdtkzDV6AAlpiwk8pZoE0SZSJdPaMlLyuGeNRczldAsYJaT21NAqKetgHkg1MJQo&#10;uI6qhLPvrQsv/NGlvd7gCvZgGJvr0jpxEctyJbtj6Z1z/2rLYG60tKjVM61hS++r&#10;My+aqtOpoVWkXsGckzmn3GxhZW4sT6KG7iXdc25hGWxAPKHxYCuBckDwftVupqCu&#10;QJgx8qSoAYi/F29wVNczfEcOlbkUSedTv+Pa9B2bn5c+3OexNYwSUowYkMrcvS2r&#10;XTzIqoP7PreECU1OB0rflLvZBMjDjdlW2QKjGkUxG3CtAUCGxNqshrFK7uaHUg8b&#10;2M15V3MA13owkCV3cqYQxEc2qYtyi7RmQxnFBK3ZATQ7gtW0ZxGIh9Ix0muO7SNP&#10;ode8qXluNvr7wtzGT+wCpS5vDPLjJxV/C7BfrVBQVptIiZ37fka9A0YJoTpVYsfe&#10;nB1TxTUsc3d5n3lUKVzauu3SpUuXLl26dOnSpctu8gcQ72tcRWdt4gAAAABJRU5E&#10;rkJggg==" height="59" preserveAspectRatio="none"/>
-      <path fill="url(#linearGradient1)" d="M181 34.5 C181 42.7843 174.2843 49.5 166 49.5 C157.7157 49.5 151 42.7843 151 34.5 C151 26.2157 157.7157 19.5 166 19.5 C174.2843 19.5 181 26.2157 181 34.5 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,-143,-11.5)" stroke="none" image-rendering="auto"/>
+    <g id="y.node.7">
+      <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,236.1064,48)" image-rendering="optimizeQuality">
+        <image preserveAspectRatio="none" x="0" width="149" y="0" height="81" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAABRCAYAAADb2+TtAAACHUlEQVR42u3dcW+i&#10;MBjAYUB2233/L7tNoSfJ20tD9Cjqkit5fkmzaRSX9Ump/EPXSZIkSZKOX7/zdX3F&#10;+9LGY7VXejWq5TXD6md+Pm38IQmsw4BKqzm921gJ6hSvPa1gbYFaxgxW06DKeZxq&#10;5nKsBPUrxtsGrLXqOUaCqllUGdMlnpueQZVhjQHq93V8FLBqdc9Og82WQZ2v43M1&#10;t+mZlWoISB8B6z1Q9RXn4NneqvlValmhvuLxFGN+FNX6FPgWoN7jfbUb9eSbYNOo&#10;zvH4e2MxqUZ1a7Oex3AHCUTHQZU35ucdX9KqUa3Hvw6+5xqW/v9vfkMtpj2o0p0B&#10;iW42+BcIKkElqCSoBJWgkqASVIJKgkpQCSoJKkElqCSoBJWgElQSVIJKUElQCSpB&#10;JUElqASVBJWgElQSVIJKUAkqCSpBJagkqASVoJKgElSCSoJKUAkqCSr9fI/e7jaP&#10;vbmTKVR/ITxzu1uQ2mw91y9FVX7AXIy+4gPda7ltVFPMdf6ZXoUqFR+QR7+BKq3e&#10;C1abqBZI5+u4xLxXrVxj5YEvcfCveG6sQFWublC1i+oS834uYD2MKhVL33LAz3h+&#10;+f1UiWoulk2o2txT5fn/DmCbp8GalWqKA3Zx0FPFpYhUfDhU7a9WU8z906jKU1dX&#10;nF+HjcsJ6QYsoNr/BjjXbtZrrjXlTfnQ1V+furVRt686BrDuFageeS1EkiRJkiQd&#10;uj9+3dQJmpRp+QAAAABJRU5ErkJggg=="/>
+      </g>
+      <g transform="matrix(1,0,0,1,-73,172)" fill-opacity="0.902" fill="rgb(255,255,255)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(255,255,255)" stroke-opacity="0.902">
+        <rect x="317.1064" width="128" height="60" y="-116" stroke="none"/>
+      </g>
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M329.9064 -116 L317.1064 -116 L317.1064 -56 L329.9064 -56"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="328.0263" xml:space="preserve" y="-81.8457" stroke="none">A ser detalhado...</text>
+        </g>
+      </g>
     </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(39,174,39)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(39,174,39)" stroke-miterlimit="1.45">
-      <path fill="none" d="M181 34.5 C181 42.7843 174.2843 49.5 166 49.5 C157.7157 49.5 151 42.7843 151 34.5 C151 26.2157 157.7157 19.5 166 19.5 C174.2843 19.5 181 26.2157 181 34.5 Z" clip-path="url(#clipPath2)"/>
+    <g id="y.edge.4">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M181.0015 34.5 L226.5099 34.5"/>
+        <path d="M237.5099 34.5 L225.5099 28.5 L225.5099 40.5 Z" stroke="none"/>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,156.5,171)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath6)" width="106" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABMCAYAAACF1CK8AAAB+0lEQVR42u2dYW+C&#10;QAxAj+PUbf//v24qctOkTbobSim4ZNt7SRMxSEwf7QEfSkoAAAAA8Pfpgr/pVh7j&#10;P1Kbz/VZom77ZiOqQ1JIlo3RK6xbUEE3Sb1EbqSBX9IocZHQ7YcUp6he9t1JFCOM&#10;9udveypouMbZRJqTVRySsux3kHi5xt6IQpJf1mgkfUjuqmx3j9pgcVbTTgS9XeNV&#10;RBVaX1jUyXSj0dP+iqOaVNRBJFlRsOxiTEX18t1Fqmkwa9bq1rdvoif3oarKRpKu&#10;97NLyFxFtVd7xXym5cUqKptcFu9a76mobuIe6tHNHEznsd4pAtc6nxc+jUDS+qcS&#10;oYcO+Yl/ADYkkwJEAaIQBYgCRCEKEAWIQhQgChCFKEAUIApRgChAFKIAUYgCRAGi&#10;EAWIAkQhChAFiEIUIAoQhShAFCAKUYAoRAGiAFGIcsA8pF9UUcj6gRx5Z+7ZgbXI&#10;isuqd/K6WpQdVmujppnRmhDKaUiUrSIdWGsnNSJpeUXZ6cyaS9dIbU9F6UFPEjr5&#10;kuGKy1FRJxNnIyxcUXrg28GO6ess1IKokCg96d8lp8Pa1mdl6fhnrTA7CxX8XExF&#10;HSXOnqXEK2pozoh2QD34r5zbAfVDcrxJwNu6eOXDdqKmXvlQtxKV0veXpyApLqs6&#10;7k03u1FFUlwWAAAAAMAEn9M1oVvvzzG3AAAAAElFTkSuQmCC" height="76" preserveAspectRatio="none"/>
-      <rect x="237.5" y="7" transform="matrix(1,0,0,1,-229.5,1)" clip-path="url(#clipPath2)" fill="url(#linearGradient2)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
+    <g id="y.edge.3">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M322.4984 34.5 L378.0011 34.5"/>
+        <path d="M389.0011 34.5 L377.0011 28.5 L377.0011 40.5 Z" stroke="none"/>
+      </g>
     </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
-      <rect x="237.5" y="7" clip-path="url(#clipPath2)" fill="none" width="85" rx="4" ry="4" height="55"/>
-      <text x="254.1279" y="31.6699" clip-path="url(#clipPath2)" fill="black" font-family="sans-serif" stroke="none" xml:space="preserve">Preparar</text>
-      <text x="251.4648" y="45.6387" clip-path="url(#clipPath2)" fill="black" font-family="sans-serif" stroke="none" xml:space="preserve">ambiente</text>
+    <g id="y.edge.0">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M474.0233 34.5 L522.4644 34.5"/>
+        <path d="M533.4644 34.5 L521.4644 28.5 L521.4644 40.5 Z" stroke="none"/>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,308,171)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath7)" width="106" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABMCAYAAACF1CK8AAAB+0lEQVR42u2dYW+C&#10;QAxAj+PUbf//v24qctOkTbobSim4ZNt7SRMxSEwf7QEfSkoAAAAA8Pfpgr/pVh7j&#10;P1Kbz/VZom77ZiOqQ1JIlo3RK6xbUEE3Sb1EbqSBX9IocZHQ7YcUp6he9t1JFCOM&#10;9udveypouMbZRJqTVRySsux3kHi5xt6IQpJf1mgkfUjuqmx3j9pgcVbTTgS9XeNV&#10;RBVaX1jUyXSj0dP+iqOaVNRBJFlRsOxiTEX18t1Fqmkwa9bq1rdvoif3oarKRpKu&#10;97NLyFxFtVd7xXym5cUqKptcFu9a76mobuIe6tHNHEznsd4pAtc6nxc+jUDS+qcS&#10;oYcO+Yl/ADYkkwJEAaIQBYgCRCEKEAWIQhQgChCFKEAUIApRgChAFKIAUYgCRAGi&#10;EAWIAkQhChAFiEIUIAoQhShAFCAKUYAoRAGiAFGIcsA8pF9UUcj6gRx5Z+7ZgbXI&#10;isuqd/K6WpQdVmujppnRmhDKaUiUrSIdWGsnNSJpeUXZ6cyaS9dIbU9F6UFPEjr5&#10;kuGKy1FRJxNnIyxcUXrg28GO6ess1IKokCg96d8lp8Pa1mdl6fhnrTA7CxX8XExF&#10;HSXOnqXEK2pozoh2QD34r5zbAfVDcrxJwNu6eOXDdqKmXvlQtxKV0veXpyApLqs6&#10;7k03u1FFUlwWAAAAAMAEn9M1oVvvzzG3AAAAAElFTkSuQmCC" height="76" preserveAspectRatio="none"/>
-      <rect x="389" y="7" transform="matrix(1,0,0,1,-381,1)" clip-path="url(#clipPath2)" fill="url(#linearGradient3)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
+    <g id="y.edge.1">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M578.4785 34.5 L666.0061 34.5"/>
+        <path d="M677.0061 34.5 L665.0061 28.5 L665.0061 40.5 Z" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="608.3451" xml:space="preserve" y="48.7314" stroke="none">Não</text>
+        </g>
+      </g>
     </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
-      <rect x="389" y="7" clip-path="url(#clipPath2)" fill="none" width="85" rx="4" ry="4" height="55"/>
-      <text x="412.5215" y="38.6543" clip-path="url(#clipPath2)" fill="black" font-family="sans-serif" stroke="none" xml:space="preserve">Testar</text>
+    <g id="y.edge.2">
+      <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+        <path fill="none" d="M556 12.0079 L556 -34.4803"/>
+        <path d="M556 -45.4803 L550 -33.4803 L562 -33.4803 Z" stroke="none"/>
+      </g>
+      <g>
+        <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" font-family="sans-serif" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
+          <text x="562.9356" xml:space="preserve" y="-8.7369" stroke="none">Sim</text>
+        </g>
+      </g>
     </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,435.5732,168)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath8)" width="99" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAABxCAYAAADBJR0FAAADQklEQVR42u2cjW6j&#10;MBAGbXD+eu//qpe0SfAFyehWlgmGgvFGM5JFpbQqMNndDxJhDAAAAAAAAAAAAAAA&#10;JLAfsP9WHIcXCxmFJTRhSRmdWKpwikW0Yf9dENLzfK1H2BptQpxCEU0QcXitY1ht&#10;eL0X8ROW0SbEKRZxeq1L2B5Ci7qH1+P22yFjOxHnIOIr/OwmZKgQ4hSL+CMqY5Bx&#10;EPPDaBPiFIk4hhP/FdYliDkKAW1GQuyQsa6IoT0dwutNqIzcqN4hY1l8zREx/L6f&#10;cUwdMpalpikR8d+qFOIqF3EeEeGi2yAxKoU4RSJOoiLeibBahThlFZFqTT6SoLZC&#10;XGUicod1LMIk0pS6CnGVVcRpxoxI3SZPVcnYULe1CXEKWtPUsJ7zv9yIvCqEuApF&#10;XKLWlFMRH1EhbmcRqRlxypwRH1chrjIR55VFeE0py32wCHUpyxUUYRfe4liDVIVU&#10;d+ukpIzUB0OXBfG1pBCfWKplyAM+iuS0RmpaImQqZfmoGrzYPrc8UW0BGXJOnKPW&#10;NHxK1xQQ8S7OyjeCjWQ8xdZvfaJKzYvh3SdXU6giTEaUlQFjbD+Ndhk5ed5nXIRt&#10;WRml3gS7y/Ci7/alfg/rIVpASSF2Yh8f0T4+xMzYlLaQdButJtqmerYtJCMW0X8B&#10;7vu1rmHdgpjNvzLaFq5EPzJLSgixmSL6k/83rFsQ8yxxndEWlpDK6qWE5Ii4ChHX&#10;IOJRIkmVvh3Szdin+Ks39hcnI2dGfEcVMYi4lxKxZ5vyb9rWmhWSI+KnBhF7yCgt&#10;xGqoiD1lvBOy1lBfMqx3FbGnjDEhfiUhS4f1biL2lpEjZG7LslpF1CBjzdirJjXV&#10;EG2Xxl67MPaqElFLZWzRstSJqE3Gb2OvmtSkRUZO7E0Jke1KxbDWImNpyzIaW5MG&#10;GXOFyCCgUkTtMsZirx+R4c3/D4bUiagp2i6JvVKOfEKCShFaZExdh/QnWT4h4aZR&#10;hCYZKSFetKbhOAYZN20itMkYE3IXxyEf5KJKhEYZUsgQY+9iZshHHKkSkbp61bbv&#10;7x7+5TUekFEuxEQyjFH6WDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#10;AAAAgM/hHz7Oqk6dug4tAAAAAElFTkSuQmCC" height="113" preserveAspectRatio="none"/>
-      <path fill="url(#linearGradient4)" d="M556 12 L578.5 34.5 L556 57 L533.5 34.5 Z" clip-path="url(#clipPath2)" transform="matrix(1,0,0,1,-508.5732,4)" stroke="none" image-rendering="auto"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(227,139,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(227,139,0)" stroke-miterlimit="1.45">
-      <path fill="none" d="M556 12 L578.5 34.5 L556 57 L533.5 34.5 Z" clip-path="url(#clipPath2)"/>
-      <text x="543.6045" y="77.7895" clip-path="url(#clipPath2)" fill="black" font-family="sans-serif" stroke="none" xml:space="preserve">Erro</text>
-      <text x="518.5732" y="91.7582" clip-path="url(#clipPath2)" fill="black" font-family="sans-serif" stroke="none" xml:space="preserve">encontrado?</text>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,596,183.5)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath9)" width="51" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAA7CAYAAADW8rJHAAAC/ElEQVR42u2ZiY6j&#10;MAyGcwBtp/v+jzrblkKGkWzpl+VArnZWO7Fk0aqU8GHHF8Z06dKly/8g9oeuG/51&#10;GAtHVA0EtRmcbXQNVgfK33Gd75te4bjC91ALVQvDN+0j6gA0AMRC+oTPCPZWGCsg&#10;hk1HofybhOGbn4U+SddSKw2FIA4gpk1PpBPpCJZx8F9++nzj900fdLzTuTPBZu+l&#10;oQKEIc6bXgBopOs6sWcCALF1TgRzo//c6Fy2VBbQUADCLvUN8UF63gGRMLh3RvjP&#10;IPaZIaCXwXha/EIQV/p8Fq6l7UerhGh0Vy/CeRDWbAZjYdETAVzBKmPkZlICiBNR&#10;z4rQnRy2faZ7nQjgDx0vtHcG4VY5vo45yirBIjlk+8RcwhseLfJBcF7ZE7lpwSqW&#10;CSIHVcNoVrkKEHcAEnZyWgwIk+szFcglWmaAHDKJPRJzK+nnIXKO5gUj5C0ZWIph&#10;tAQ5ihAaMqviFCAO/xOEbntUsbjEzelFTnA7VknZMyHRG8ZXWcYrJUoojGB7D8Du&#10;rFtsGasAucR91qKtcJHqu9rNrOhPtCdcUrofuedRo5cdzWKd5Lta+uS1XMFTDIqP&#10;l/ZG9qB2y7K4SwCQrW4w75GQW864REusIguHBp3rkVVic4Iqy8jucIEL20Igm7Dm&#10;IlrptRUMX3QWQCaxdzEZ5+KaOB9oBsMDiAf06EcXt5FCMnc9LDSbBAC8OA8hjqyT&#10;AqFZZRHraGsV9zMpJUZJDpLnoWv93fSTjjdws2YwJjK5dBGXMhmWQte6EQjDNLfM&#10;HlSs5LAR1dz4GQG550xocmHCTvdoM8MvRq2HAPkkkDknUfsCEGP0KX6IFI5y6q9N&#10;NatBSiaaASaNRkS6GQaBXhk9yejIrsUwrHcR/s0rYXDSuCo3NsGEMvYW4AmhHmfN&#10;M1hkNYUburREP3oL4MSsYFUqCtTFVBSztX2Jln+GnVYXC0ft/UzVC6dWTZYM1bH8&#10;E5TRazVEa5hYq2siU5zQCqBLly5dunTp0qVLly6/Vr4ASFFqgh0KO1IAAAAASUVO&#10;RK5CYII=" height="59" preserveAspectRatio="none"/>
-      <circle transform="matrix(1,0,0,1,-669,-11.5)" clip-path="url(#clipPath2)" fill="url(#linearGradient5)" image-rendering="auto" r="13.75" cx="692" cy="34.5" stroke="none"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(177,31,31)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(177,31,31)" stroke-width="3" stroke-miterlimit="1.45">
-      <circle fill="none" r="13.75" clip-path="url(#clipPath2)" cx="692" cy="34.5"/>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,422.6738,35.0156)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath10)" width="125" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABoCAYAAADcm/8NAAACk0lEQVR42u3di27i&#10;MBBA0Rho6e7/f+zClnhBsrVWxCvgEiecK41CVZUG38zYDoLpOgAAAAAAAAAAAAAA&#10;AAAAAAAAAAAAAAAAAOBEmPnzL5k4JymhOAbinxIei2hW+un5VoMIsn608Bx9EdXk&#10;b35A+CbFOh1XhD8k/ST6u4hDa9JL4Z8ptsf4SPKV+XHSs/C/x9ilyPQtSV8nyV/H&#10;+JWOn+l/kD5O+iFJ36VxHZb92KL030n855lMj7xeXVuVmZ4T5jCIyTM9l/YsfZvE&#10;bwvpGEdfjNshlfl9sT6KLUgv5/SPIvJCDuPIcvtiHNe1FsWbiieZs319Zrv2kpsO&#10;Cynv57a/t8Z00i3btRsyZN++GRNujGu1DH3li0ID42S+fdMFA0gH6SAdpIN0kA7S&#10;QTpIB+kgHaSDdJAO0kE66YaAdJAO0kE6SMdM2Czotbzio9BRpoN0KO9LKPlRps9L&#10;9qPfavXM38r0hjI93MjeSx8RjqQvS/SlMh6WLn+18AyfwzaQdCjvU6y449JX8Js3&#10;vdjDO2zNlPfbK3XlXaaTbs5X3l0IMr290n2rfMeRc76bM7Ka9EdXzFOJDQ1fIGFp&#10;mf6qL/qPlYXFBY1N1Tl92GjmWveBKdqCPfIuW/m7OGHFil2jjXtK4bn7QP55NcFA&#10;hcHjR95liy/M9HvHs4r4TeWrMTebOUVu4zFFZ4dQWcCrybLzWOaOTX1L0suT3HX/&#10;e4/EQj7p95Mb9+zTeO5bk54H5pBOLkvu00WgW9P4C6zs1vQnHXNvtq416d1AeO7L&#10;tup0a7qnMsVB5dwXUS3TQ+UTz/1GcqOZ9UTlfe7ZHosF3PdgMdfczYCyc9OqeIzn&#10;tsBVMvyn98zhwhHj5vbqHZUBAAAAzIl/qXK7op1xQiMAAAAASUVORK5CYII=" height="104" preserveAspectRatio="none"/>
-      <rect x="513.5" y="-100.5" transform="matrix(1,0,0,1,-495.6738,136.9844)" clip-path="url(#clipPath2)" fill="url(#linearGradient6)" width="85" image-rendering="auto" rx="4" ry="4" height="55" stroke="none"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill="rgb(18,62,162)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(18,62,162)" stroke-miterlimit="1.45">
-      <rect x="513.5" y="-100.5" clip-path="url(#clipPath2)" fill="none" width="85" rx="4" ry="4" height="55"/>
-    </g>
-    <g stroke-linecap="butt" transform="matrix(1,0,0,1,-73,172)" fill-opacity="0" fill="rgb(0,0,0)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(0,0,0)" stroke-opacity="0" stroke-miterlimit="1.45">
-      <path d="M548.5 -64.5 L563.5 -64.5 L563.5 -49.5 L548.5 -49.5 Z" stroke="none" clip-path="url(#clipPath2)"/>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M548.5 -64.5 L563.5 -64.5 L563.5 -49.5 L548.5 -49.5 Z" clip-path="url(#clipPath2)"/>
-      <path fill="none" d="M552.16 -57 L559.84 -57 M556 -60.84 L556 -53.16" clip-path="url(#clipPath2)"/>
-      <text x="505.6738" y="-115.8457" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none" stroke-miterlimit="1.45" xml:space="preserve">Registrar defeito</text>
-    </g>
-    <g text-rendering="geometricPrecision" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,236.1064,48)" image-rendering="optimizeQuality">
-      <image x="0" y="0" clip-path="url(#clipPath11)" width="149" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJUAAABRCAYAAADb2+TtAAACHUlEQVR42u3dcW+i&#10;MBjAYUB2233/L7tNoSfJ20tD9Cjqkit5fkmzaRSX9Ump/EPXSZIkSZKOX7/zdX3F&#10;+9LGY7VXejWq5TXD6md+Pm38IQmsw4BKqzm921gJ6hSvPa1gbYFaxgxW06DKeZxq&#10;5nKsBPUrxtsGrLXqOUaCqllUGdMlnpueQZVhjQHq93V8FLBqdc9Og82WQZ2v43M1&#10;t+mZlWoISB8B6z1Q9RXn4NneqvlValmhvuLxFGN+FNX6FPgWoN7jfbUb9eSbYNOo&#10;zvH4e2MxqUZ1a7Oex3AHCUTHQZU35ucdX9KqUa3Hvw6+5xqW/v9vfkMtpj2o0p0B&#10;iW42+BcIKkElqCSoBJWgkqASVIJKgkpQCSoJKkElqCSoBJWgElQSVIJKUElQCSpB&#10;JUElqASVBJWgElQSVIJKUAkqCSpBJagkqASVoJKgElSCSoJKUAkqCSr9fI/e7jaP&#10;vbmTKVR/ITxzu1uQ2mw91y9FVX7AXIy+4gPda7ltVFPMdf6ZXoUqFR+QR7+BKq3e&#10;C1abqBZI5+u4xLxXrVxj5YEvcfCveG6sQFWublC1i+oS834uYD2MKhVL33LAz3h+&#10;+f1UiWoulk2o2txT5fn/DmCbp8GalWqKA3Zx0FPFpYhUfDhU7a9WU8z906jKU1dX&#10;nF+HjcsJ6QYsoNr/BjjXbtZrrjXlTfnQ1V+furVRt686BrDuFageeS1EkiRJkiQd&#10;uj9+3dQJmpRp+QAAAABJRU5ErkJggg==" height="81" preserveAspectRatio="none"/>
-    </g>
-    <g transform="matrix(1,0,0,1,-73,172)" fill-opacity="0.902" fill="rgb(255,255,255)" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke="rgb(255,255,255)" stroke-opacity="0.902">
-      <rect x="317.1064" width="128" height="60" y="-116" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M329.9064 -116 L317.1064 -116 L317.1064 -56 L329.9064 -56" clip-path="url(#clipPath2)"/>
-      <text x="328.0263" xml:space="preserve" y="-81.8457" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none">A ser detalhado...</text>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M181.0015 34.5 L226.5099 34.5" clip-path="url(#clipPath2)"/>
-      <path d="M237.5099 34.5 L225.5099 28.5 L225.5099 40.5 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M322.4984 34.5 L378.0011 34.5" clip-path="url(#clipPath2)"/>
-      <path d="M389.0011 34.5 L377.0011 28.5 L377.0011 40.5 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M474.0233 34.5 L522.4644 34.5" clip-path="url(#clipPath2)"/>
-      <path d="M533.4644 34.5 L521.4644 28.5 L521.4644 40.5 Z" clip-path="url(#clipPath2)" stroke="none"/>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M578.4785 34.5 L666.0061 34.5" clip-path="url(#clipPath2)"/>
-      <path d="M677.0061 34.5 L665.0061 28.5 L665.0061 40.5 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <text x="608.3451" xml:space="preserve" y="48.7314" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none">Não</text>
-    </g>
-    <g text-rendering="geometricPrecision" stroke-miterlimit="1.45" shape-rendering="geometricPrecision" transform="matrix(1,0,0,1,-73,172)" stroke-linecap="butt">
-      <path fill="none" d="M556 12.0079 L556 -34.4803" clip-path="url(#clipPath2)"/>
-      <path d="M556 -45.4803 L550 -33.4803 L562 -33.4803 Z" clip-path="url(#clipPath2)" stroke="none"/>
-      <text x="562.9356" xml:space="preserve" y="-8.7369" clip-path="url(#clipPath2)" font-family="sans-serif" stroke="none">Sim</text>
-    </g>
-    <g stroke-linecap="round" transform="matrix(1,0,0,1,-73,172)" stroke-dashoffset="2" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="0,8" stroke-width="2" stroke-miterlimit="1.45">
-      <path fill="none" d="M431.5 7.013 L431.5 -11.9627 L430.875 -16.3377 L429 -19.4627 L425.875 -21.3377 L421.5 -21.9627 L391.1064 -21.9627 L386.7314 -22.5877 L383.6064 -24.4627 L381.7314 -27.5877 L381.1064 -31.9627 L381.1064 -56.0138" clip-path="url(#clipPath2)"/>
+    <g id="y.edge.5">
+      <g stroke-linecap="round" transform="matrix(1,0,0,1,-73,172)" stroke-dashoffset="2" text-rendering="geometricPrecision" shape-rendering="geometricPrecision" stroke-dasharray="0,8" stroke-width="2" stroke-miterlimit="1.45">
+        <path fill="none" d="M431.5 7.013 L431.5 -11.9627 L430.875 -16.3377 L429 -19.4627 L425.875 -21.3377 L421.5 -21.9627 L391.1064 -21.9627 L386.7314 -22.5877 L383.6064 -24.4627 L381.7314 -27.5877 L381.1064 -31.9627 L381.1064 -56.0138"/>
+      </g>
     </g>
   </g>
 </svg>
