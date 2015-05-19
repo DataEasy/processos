@@ -88,7 +88,7 @@
           </data>
         </node>
         <node id="n0::n1" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[./subprocessos/1.0.Análise.graphml]]></data>
+          <data key="d4"><![CDATA[./subprocessos/1.0.Analise.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
