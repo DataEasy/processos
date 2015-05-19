@@ -173,7 +173,7 @@ estimativa<y:LabelModel>
           <graph edgedefault="directed" id="n0::n2:"/>
         </node>
         <node id="n0::n3" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[./2.3.Verificar-Questões-Comerciais.graphml]]></data>
+          <data key="d4"><![CDATA[./2.3.Verificar-Questoes-Comerciais.graphml]]></data>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
               <y:Realizers active="1">
