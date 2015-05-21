@@ -1,4 +1,64 @@
 #!/usr/bin/env bash
 
-git push origin master
-git push -f origin origin/master:gh-pages
+# Este script assume:
+# 1) Permissão de escrita no repositório destino
+# 2) Que tal repositório esteja configurado como `origin` na máquina na qual esteja sendo executado
+
+######################################
+# Imports e checagens de dependências:
+######################################
+
+SH_UTILS="./dataeasy-utils.sh"
+
+if [ ! -f $SH_UTILS ]; then
+    echo "$SH_UTILS não encontrado. Abortando." 1>&2
+    exit 1
+fi
+
+. $SH_UTILS
+
+check_dependency git
+
+check_git_dirty
+
+# Este script só deve ser executado a partir da branch master
+BRANCH=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1/"`
+
+if [ "$BRANCH" != "master" ]; then
+    e_error "O deploy precisa ser feito a partir da branch master"
+    exit 1
+fi
+
+e_de_logo
+e_header "Publicando processos"
+
+####################################
+# Realizando push para origin/master
+####################################
+
+e_step "Enviando para o master remoto"
+
+git push -q origin master
+
+if [ $? -ne 0 ]; then
+    e_error
+fi
+
+e_check
+
+######################
+# Atualizando gh-pages
+######################
+
+e_step "Atualizando branch \`gh-pages\`"
+
+git push -f -q origin origin/master:gh-pages
+
+if [ $? -ne 0 ]; then
+    e_error
+fi
+
+e_check
+
+e_done
+exit 0
