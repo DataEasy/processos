@@ -639,7 +639,7 @@ APIs Rest<y:LabelModel>
           </data>
         </node>
         <node id="n0::n20" yfiles.foldertype="folder">
-          <data key="d4"><![CDATA[/Users/luizfilho/Google Drive/Processos/GitWorkflow/v1/fluxo-com-branches.graphml]]></data>
+          <data key="d4"><![CDATA[/Users/luizfilho/Google Drive/Processos/GitWorkflow/v2/fluxo-com-branches.graphml]]></data>
           <data key="d5"/>
           <data key="d6">
             <y:ProxyAutoBoundsNode>
