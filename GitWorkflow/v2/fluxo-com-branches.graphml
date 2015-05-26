@@ -17,18 +17,18 @@
     <node id="n0" yfiles.foldertype="group">
       <data key="d6">
         <y:TableNode configuration="com.yworks.bpmn.Pool">
-          <y:Geometry height="901.0370540674065" width="2721.384905433727" x="812.8360418999715" y="-474.15252542334434"/>
+          <y:Geometry height="811.3743102522054" width="2721.384905433727" x="812.8360418999715" y="-384.4897816081434"/>
           <y:Fill color="#FFF2BC" color2="#D4D4D4CC" transparent="false"/>
           <y:BorderStyle color="#000000" type="line" width="1.0"/>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="l" rotationAngle="270.0" textColor="#000000" visible="true" width="238.5654296875" x="4.0" y="331.2358121899533">Fluxo de trabalho com branches</y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" rotationAngle="270.0" textColor="#000000" visible="true" width="119.505859375" x="33.0" y="186.94147283258474">Configuração inicial<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="15" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="21.666015625" modelName="internal" modelPosition="l" rotationAngle="270.0" textColor="#000000" visible="true" width="238.5654296875" x="4.0" y="286.40444028235265">Fluxo de trabalho com branches</y:NodeLabel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" rotationAngle="270.0" textColor="#000000" visible="true" width="119.505859375" x="33.0" y="142.11010092498424">Configuração inicial<y:LabelModel>
               <y:RowNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
               <y:RowNodeLabelModelParameter horizontalPosition="0.0" id="row_0" inside="true"/>
             </y:ModelParameter>
           </y:NodeLabel>
-          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" rotationAngle="270.0" textColor="#000000" visible="true" width="164.142578125" x="33.0" y="603.6416404912882">Fluxo de trabalho cotidiano<y:LabelModel>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" rotationAngle="270.0" textColor="#000000" visible="true" width="164.142578125" x="33.0" y="513.9788966760871">Fluxo de trabalho cotidiano<y:LabelModel>
               <y:RowNodeLabelModel offset="3.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -58,7 +58,7 @@
           </y:StyleProperties>
           <y:State autoResize="true" closed="false" closedHeight="80.0" closedWidth="100.0"/>
           <y:Insets bottom="0" bottomF="0.0" left="0" leftF="0.0" right="0" rightF="0.0" top="0" topF="0.0"/>
-          <y:BorderInsets bottom="39" bottomF="39.26848249027228" left="49" leftF="49.08560311284043" right="62" rightF="62.02872943486591" top="0" topF="0.0"/>
+          <y:BorderInsets bottom="39" bottomF="39.26848249027205" left="49" leftF="49.08560311284043" right="62" rightF="62.02872943486591" top="3" topF="3.0"/>
           <y:Table autoResizeTable="true" defaultColumnWidth="360.0" defaultMinimumColumnWidth="30.0" defaultMinimumRowHeight="30.0" defaultRowHeight="107.0">
             <y:DefaultColumnInsets bottom="3.0" left="3.0" right="3.0" top="20.0"/>
             <y:DefaultRowInsets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
@@ -69,10 +69,10 @@
               </y:Column>
             </y:Columns>
             <y:Rows>
-              <y:Row height="453.3888050401695" id="row_0" minimumHeight="54.4765625">
+              <y:Row height="363.7260612249685" id="row_0" minimumHeight="54.4765625">
                 <y:Insets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
               </y:Row>
-              <y:Row height="424.6482490272373" id="row_1" minimumHeight="30.0">
+              <y:Row height="424.64824902723717" id="row_1" minimumHeight="30.0">
                 <y:Insets bottom="3.0" left="20.0" right="3.0" top="3.0"/>
               </y:Row>
             </y:Rows>
@@ -95,8 +95,8 @@
                 </y:ModelParameter>
               </y:NodeLabel>
               <y:StyleProperties>
-                <y:Property class="com.yworks.yfiles.bpmn.view.EventCharEnum" name="com.yworks.bpmn.characteristic" value="EVENT_CHARACTERISTIC_START"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.EventCharEnum" name="com.yworks.bpmn.characteristic" value="EVENT_CHARACTERISTIC_START"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
                 <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="EVENT_TYPE_PLAIN"/>
@@ -293,7 +293,7 @@ coesos<y:LabelModel>
         <node id="n0::n8">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="52.265625" width="132.076171875" x="1046.2312501209606" y="-102.53638467044698"/>
+              <y:Geometry height="52.265625" width="132.076171875" x="1015.1164644320954" y="-354.4233753581434"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="112.076171875" x="10.0" y="10.0">Fazer fork do repo
@@ -318,7 +318,7 @@ oficial<y:LabelModel>
         <node id="n0::n9">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="66.3984375" width="127.875" x="1218.6747621918685" y="-109.60279092044698"/>
+              <y:Geometry height="66.3984375" width="127.875" x="1187.5599765030033" y="-361.4897816081434"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="107.875" x="10.0" y="10.0">Clonar seu fork
@@ -404,7 +404,7 @@ repositório remoto <y:LabelModel>
         <node id="n0::n12">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="38.1328125" width="131.203125" x="1040.3235690706556" y="-370.3235888379785"/>
+              <y:Geometry height="38.1328125" width="131.203125" x="1053.2253579942583" y="-71.80413899924065"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="111.203125" x="10.0" y="10.0">Clonar repo oficial<y:LabelModel>
@@ -434,10 +434,9 @@ repositório remoto <y:LabelModel>
           </data>
         </node>
         <node id="n0::n13">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-              <y:Geometry height="38.1328125" width="302.197265625" x="954.8264987581558" y="-454.15252542334434"/>
+              <y:Geometry height="38.1328125" width="302.197265625" x="1061.504135394054" y="-147.00335774924065"/>
               <y:Fill color="#FFFFFFE6" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="282.197265625" x="10.0" y="10.0">git clone git@github.com:DataEasy/exemplo.git<y:LabelModel>
@@ -457,10 +456,9 @@ repositório remoto <y:LabelModel>
           </data>
         </node>
         <node id="n0::n14">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-              <y:Geometry height="38.1328125" width="320.53125" x="1122.3466371918685" y="-177.73560342044698"/>
+              <y:Geometry height="38.1328125" width="320.53125" x="1061.504135394054" y="-279.23532438051683"/>
               <y:Fill color="#FFFFFFE6" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="300.53125" x="10.0" y="10.0">git clone git@github.com:seu-usuario/exemplo.git<y:LabelModel>
@@ -480,31 +478,6 @@ repositório remoto <y:LabelModel>
           </data>
         </node>
         <node id="n0::n15">
-          <data key="d5"/>
-          <data key="d6">
-            <y:GenericNode configuration="com.yworks.bpmn.Gateway.withShadow">
-              <y:Geometry height="30.0" width="24.0" x="1598.3516727002761" y="-229.35252321047403"/>
-              <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
-              <y:BorderStyle color="#E38B00" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" hasText="false" height="4.0" modelName="custom" textColor="#000000" visible="true" width="4.0" x="28.0" y="-8.0">
-                <y:LabelModel>
-                  <y:SmartNodeLabelModel distance="4.0"/>
-                </y:LabelModel>
-                <y:ModelParameter>
-                  <y:SmartNodeLabelModelParameter labelRatioX="-0.5" labelRatioY="0.5" nodeRatioX="0.5" nodeRatioY="-0.5" offsetX="4.0" offsetY="-4.0" upX="0.0" upY="-1.0"/>
-                </y:ModelParameter>
-              </y:NodeLabel>
-              <y:StyleProperties>
-                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
-                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
-                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
-                <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="GATEWAY_TYPE_INCLUSIVE"/>
-              </y:StyleProperties>
-            </y:GenericNode>
-          </data>
-        </node>
-        <node id="n0::n16">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
               <y:Geometry height="80.53125" width="92.6484375" x="1724.9803824477142" y="200.58210081676322"/>
@@ -531,8 +504,7 @@ remotas<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n17">
-          <data key="d5"/>
+        <node id="n0::n16">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="66.3984375" width="269.291015625" x="1636.6590933852142" y="102.76423615236632"/>
@@ -556,11 +528,10 @@ várias ao dia *<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n18">
-          <data key="d5"/>
+        <node id="n0::n17">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="52.265625" width="145.359375" x="1235.3790164502761" y="-377.3899950879785"/>
+              <y:Geometry height="52.265625" width="145.359375" x="1219.4274338563691" y="-78.87054524924065"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="32.265625" modelName="custom" textColor="#000000" visible="true" width="125.359375" x="10.0" y="10.0">Configurar
@@ -582,11 +553,10 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n19">
-          <data key="d5"/>
+        <node id="n0::n18">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
-              <y:Geometry height="66.3984375" width="212.232421875" x="1378.1192508252761" y="-109.60279092044698"/>
+              <y:Geometry height="66.3984375" width="212.232421875" x="1357.60704878098" y="-361.4897816081434"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="179.18359375" x="16.5244140625" y="10.0">Configurar 2 remotos:
@@ -609,11 +579,10 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n20">
-          <data key="d5"/>
+        <node id="n0::n19">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
-              <y:Geometry height="38.1328125" width="396.779296875" x="1147.1280456894463" y="-252.93482217044695"/>
+              <y:Geometry height="38.1328125" width="396.779296875" x="1612.0115429339567" y="-347.3569691081434"/>
               <y:Fill color="#FFFFFFE6" transparent="false"/>
               <y:BorderStyle color="#000000" type="line" width="1.0"/>
               <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="376.779296875" x="10.0" y="10.0">git remote add upstream git@github.com:DataEasy/exemplo.git<y:LabelModel>
@@ -632,8 +601,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n21">
-          <data key="d5"/>
+        <node id="n0::n20">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="367.294921875" x="2441.9175296752164" y="141.50175505456804"/>
@@ -655,8 +623,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n22">
-          <data key="d5"/>
+        <node id="n0::n21">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="199.53515625" x="2525.7974124877164" y="80.43534880456804"/>
@@ -678,8 +645,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n23">
-          <data key="d5"/>
+        <node id="n0::n22">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="297.66796875" x="2880.150977580537" y="80.43534880456804"/>
@@ -701,8 +667,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n24">
-          <data key="d5"/>
+        <node id="n0::n23">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="294.0703125" x="2881.949805705537" y="19.368942554568036"/>
@@ -724,8 +689,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n25">
-          <data key="d5"/>
+        <node id="n0::n24">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="201.33984375" x="1526.5619132721304" y="346.4832336537899"/>
@@ -747,8 +711,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n26">
-          <data key="d5"/>
+        <node id="n0::n25">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="282.24609375" x="2887.861915080537" y="141.50175505456804"/>
@@ -770,8 +733,7 @@ remoto como 'origin'<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n27">
-          <data key="d5"/>
+        <node id="n0::n26">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
               <y:Geometry height="66.3984375" width="140.4609375" x="3167.3001061449622" y="207.64850706676322"/>
@@ -797,8 +759,7 @@ merge<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
-        <node id="n0::n28">
-          <data key="d5"/>
+        <node id="n0::n27">
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Event.withShadow">
               <y:Geometry height="30.0" width="30.0" x="3439.1922178988325" y="225.84772581676322"/>
@@ -813,8 +774,8 @@ merge<y:LabelModel>
                 </y:ModelParameter>
               </y:NodeLabel>
               <y:StyleProperties>
-                <y:Property class="com.yworks.yfiles.bpmn.view.EventCharEnum" name="com.yworks.bpmn.characteristic" value="EVENT_CHARACTERISTIC_END"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.EventCharEnum" name="com.yworks.bpmn.characteristic" value="EVENT_CHARACTERISTIC_END"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
                 <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
                 <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="EVENT_TYPE_PLAIN"/>
@@ -822,7 +783,81 @@ merge<y:LabelModel>
             </y:GenericNode>
           </data>
         </node>
+        <node id="n0::n28">
+          <data key="d5"/>
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
+              <y:Geometry height="52.265625" width="127.875" x="1399.78575971848" y="-78.87054524924065"/>
+              <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
+              <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="97.8203125" x="15.02734375" y="2.93359375">Atualizar 
+remotos em sua
+máquina<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.TaskTypeEnum" name="com.yworks.bpmn.taskType" value="TASK_TYPE_ABSTRACT"/>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="ACTIVITY_TYPE"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.ActivityTypeEnum" name="com.yworks.bpmn.activityType" value="ACTIVITY_TYPE_TASK"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
+        <node id="n0::n29">
+          <data key="d5"/>
+          <data key="d6">
+            <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
+              <y:Geometry height="38.1328125" width="103.6640625" x="1562.6597105805909" y="-71.80413899924062"/>
+              <y:Fill color="#FFFFFFE6" transparent="false"/>
+              <y:BorderStyle color="#000000" type="line" width="1.0"/>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="83.6640625" x="10.0" y="10.0">git fetch --all<y:LabelModel>
+                  <y:SmartNodeLabelModel distance="4.0"/>
+                </y:LabelModel>
+                <y:ModelParameter>
+                  <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="0.0" nodeRatioX="0.0" nodeRatioY="0.0" offsetX="0.0" offsetY="0.0" upX="0.0" upY="-1.0"/>
+                </y:ModelParameter>
+              </y:NodeLabel>
+              <y:StyleProperties>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
+                <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
+                <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="ARTIFACT_TYPE_ANNOTATION"/>
+              </y:StyleProperties>
+            </y:GenericNode>
+          </data>
+        </node>
       </graph>
+    </node>
+    <node id="n1">
+      <data key="d5"/>
+      <data key="d6">
+        <y:GenericNode configuration="com.yworks.bpmn.Conversation.withShadow">
+          <y:Geometry height="45.0" width="45.0" x="1836.1420233463036" y="-797.9839494163424"/>
+          <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
+          <y:BorderStyle color="#476228" type="line" width="1.0"/>
+          <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" textColor="#000000" visible="true" width="19.17578125" x="12.912109375" y="49.0">32<y:LabelModel>
+              <y:SmartNodeLabelModel distance="4.0"/>
+            </y:LabelModel>
+            <y:ModelParameter>
+              <y:SmartNodeLabelModelParameter labelRatioX="0.0" labelRatioY="-0.5" nodeRatioX="0.0" nodeRatioY="0.5" offsetX="0.0" offsetY="4.0" upX="0.0" upY="-1.0"/>
+            </y:ModelParameter>
+          </y:NodeLabel>
+          <y:StyleProperties>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
+            <y:Property class="com.yworks.yfiles.bpmn.view.ConversationTypeEnum" name="com.yworks.bpmn.conversationType" value="CONVERSATION_TYPE_COMMUNICATION"/>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONVERSATION_TYPE"/>
+          </y:StyleProperties>
+        </y:GenericNode>
+      </data>
     </node>
     <edge id="n0::e0" source="n0::n0" target="n0::n7">
       <data key="d10">
@@ -887,7 +922,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e5" source="n0::n6" target="n0::n16">
+    <edge id="n0::e5" source="n0::n6" target="n0::n15">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -916,7 +951,7 @@ merge<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="-1.6961998049206127E-22" ty="-2.767709009707293E-5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="26.86328125" x="-60.014018909896095" y="-31.669352162061784">Não<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="26.86328125" x="-59.85404853266459" y="-33.517164970956486">Não<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -936,7 +971,7 @@ merge<y:LabelModel>
           <y:Path sx="0.0" sy="0.0" tx="-1.0959779759699091E-16" ty="-1.6341925267123514E-5"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="25.134765625" x="-56.250466455983315" y="4.442515634736083">Sim<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="25.134765625" x="-56.42162810562411" y="2.878867209798017">Sim<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1009,15 +1044,14 @@ merge<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e9" source="n0::n7" target="n0::n12">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="999.4415662902154" y="-351.2571825879785"/>
+            <y:Point x="999.4415662902154" y="-52.73773274924065"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="26.86328125" x="16.568336309746655" y="-80.05273192754657">Não<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="26.86328125" x="-43.431663690253345" y="74.2398909410411">Não<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1032,15 +1066,14 @@ merge<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e10" source="n0::n7" target="n0::n8">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="999.4415662902154" y="-76.40357217044698"/>
+            <y:Point x="999.4415662902154" y="-328.2905628581434"/>
           </y:Path>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="25.134765625" x="17.432594122246655" y="55.38469339840668">Sim<y:LabelModel>
+          <y:Arrows source="white_diamond" target="delta"/>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="18.1328125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="25.134765625" x="-42.567405877753345" y="-61.54633551477747">Sim<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
@@ -1054,13 +1087,11 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e11" source="n0::n12" target="n0::n13">
-      <data key="d9"/>
+    <edge id="e3" source="n0::n12" target="n0">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1105.9251315706556" y="-393.1716508806614"/>
-            <y:Point x="1105.9251315706558" y="-393.1716508806614"/>
+          <y:Path sx="0.0" sy="0.0" tx="-1044.7799884689748" ty="30.581119674066258">
+            <y:Point x="1170.5401991027154" y="-115.60943518826502"/>
           </y:Path>
           <y:LineStyle color="#000000" type="dotted" width="2.0"/>
           <y:Arrows source="none" target="none"/>
@@ -1070,8 +1101,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e3" source="n0" target="n0::n14">
-      <data key="d9"/>
+    <edge id="e4" source="n0" target="n0::n14">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="-7.248054884175066E-17" sy="-2.314682855405203E-6" tx="0.0" ty="0.0"/>
@@ -1083,11 +1113,10 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e12" source="n0::n9" target="n0::n14">
-      <data key="d9"/>
+    <edge id="n0::e11" source="n0::n9" target="n0::n14">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="29.72771610894938" ty="-13.497208056906686"/>
           <y:LineStyle color="#000000" type="dotted" width="2.0"/>
           <y:Arrows source="none" target="none"/>
           <y:StyleProperties>
@@ -1096,23 +1125,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e13" source="n0::n15" target="n0::n1">
-      <data key="d9"/>
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-27.69776999134867">
-            <y:Point x="1627.2318351471306" y="-214.35252321047403"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
-          </y:StyleProperties>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="n0::e14" source="n0::n1" target="n0::n16">
-      <data key="d9"/>
+    <edge id="n0::e12" source="n0::n1" target="n0::n15">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1124,8 +1137,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e15" source="n0::n16" target="n0::n2">
-      <data key="d9"/>
+    <edge id="n0::e13" source="n0::n15" target="n0::n2">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1137,8 +1149,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e16" source="n0::n17" target="n0::n17">
-      <data key="d9"/>
+    <edge id="n0::e14" source="n0::n16" target="n0::n16">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1153,8 +1164,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e17" source="n0::n17" target="n0::n16">
-      <data key="d9"/>
+    <edge id="n0::e15" source="n0::n16" target="n0::n15">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.5354642996112489" ty="-28.650284824902712">
@@ -1169,8 +1179,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e18" source="n0::n12" target="n0::n18">
-      <data key="d9"/>
+    <edge id="n0::e16" source="n0::n12" target="n0::n17">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1182,23 +1191,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e19" source="n0::n18" target="n0::n15">
-      <data key="d9"/>
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
-            <y:Point x="1610.3516727002761" y="-351.2571825879785"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
-          </y:StyleProperties>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="n0::e20" source="n0::n9" target="n0::n19">
-      <data key="d9"/>
+    <edge id="n0::e17" source="n0::n9" target="n0::n18">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1210,39 +1203,10 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="e4" source="n0" target="n0::n15">
-      <data key="d9"/>
+    <edge id="n0::e18" source="n0::n18" target="n0::n19">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="-16.333168921174828" sy="-40.670409455064345" tx="0.0" ty="0.0"/>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
-          </y:StyleProperties>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="n0::e21" source="n0::n19" target="n0::n15">
-      <data key="d9"/>
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="3.9704842999681773">
-            <y:Point x="1610.3516727002761" y="-76.40357217044698"/>
-          </y:Path>
-          <y:LineStyle color="#000000" type="line" width="1.0"/>
-          <y:Arrows source="none" target="delta"/>
-          <y:StyleProperties>
-            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
-          </y:StyleProperties>
-        </y:GenericEdge>
-      </data>
-    </edge>
-    <edge id="n0::e22" source="n0::n19" target="n0::n20">
-      <data key="d9"/>
-      <data key="d10">
-        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="9.178081162629724" sy="14.1328125" tx="147.8958487984596" ty="0.0"/>
+          <y:Path sx="9.178081162629724" sy="0.0" tx="147.8958487984596" ty="0.0"/>
           <y:LineStyle color="#000000" type="dotted" width="2.0"/>
           <y:Arrows source="none" target="none"/>
           <y:StyleProperties>
@@ -1251,8 +1215,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e23" source="n0::n21" target="n0::n21">
-      <data key="d9"/>
+    <edge id="n0::e19" source="n0::n20" target="n0::n20">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1267,8 +1230,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e24" source="n0::n10" target="n0::n21">
-      <data key="d9"/>
+    <edge id="n0::e20" source="n0::n10" target="n0::n20">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1280,8 +1242,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e25" source="n0::n21" target="n0::n22">
-      <data key="d9"/>
+    <edge id="n0::e21" source="n0::n20" target="n0::n21">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1293,8 +1254,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e26" source="n0::n23" target="n0::n23">
-      <data key="d9"/>
+    <edge id="n0::e22" source="n0::n22" target="n0::n22">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1309,8 +1269,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e27" source="n0::n24" target="n0::n24">
-      <data key="d9"/>
+    <edge id="n0::e23" source="n0::n23" target="n0::n23">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1325,8 +1284,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e28" source="n0::n1" target="n0::n25">
-      <data key="d9"/>
+    <edge id="n0::e24" source="n0::n1" target="n0::n24">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1341,8 +1299,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e29" source="n0::n26" target="n0::n26">
-      <data key="d9"/>
+    <edge id="n0::e25" source="n0::n25" target="n0::n25">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1357,8 +1314,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e30" source="n0::n23" target="n0::n24">
-      <data key="d9"/>
+    <edge id="n0::e26" source="n0::n22" target="n0::n23">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1370,8 +1326,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e31" source="n0::n26" target="n0::n23">
-      <data key="d9"/>
+    <edge id="n0::e27" source="n0::n25" target="n0::n22">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1383,8 +1338,7 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e32" source="n0::n11" target="n0::n26">
-      <data key="d9"/>
+    <edge id="n0::e28" source="n0::n11" target="n0::n25">
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="-70.64283710074055" ty="0.0"/>
@@ -1396,7 +1350,31 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e33" source="n0::n11" target="n0::n27">
+    <edge id="n0::e29" source="n0::n11" target="n0::n26">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="n0::e30" source="n0::n26" target="n0::n27">
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="n0::e31" source="n0::n17" target="n0::n28">
       <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
@@ -1409,15 +1387,59 @@ merge<y:LabelModel>
         </y:GenericEdge>
       </data>
     </edge>
-    <edge id="n0::e34" source="n0::n27" target="n0::n28">
+    <edge id="n0::e32" source="n0::n18" target="n0::n28">
       <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
-          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-26.146888732910156"/>
           <y:LineStyle color="#000000" type="line" width="1.0"/>
           <y:Arrows source="none" target="delta"/>
           <y:StyleProperties>
             <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="n0::e33" source="n0::n28" target="n0::n29">
+      <data key="d9"/>
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1535.1157310265553" y="-52.73773274924065"/>
+            <y:Point x="1535.1157310265553" y="-52.73773274924062"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="dotted" width="2.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_ASSOCIATION"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="n0::e34" source="n0::n28" target="n0::n1">
+      <data key="d9"/>
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
+            <y:Point x="1463.72325971848" y="240.84772581676322"/>
+          </y:Path>
+          <y:LineStyle color="#000000" type="line" width="1.0"/>
+          <y:Arrows source="none" target="delta"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_SEQUENCE_FLOW"/>
+          </y:StyleProperties>
+        </y:GenericEdge>
+      </data>
+    </edge>
+    <edge id="n0::e35" source="n0::n12" target="n0::n13">
+      <data key="d9"/>
+      <data key="d10">
+        <y:GenericEdge configuration="com.yworks.bpmn.Connection">
+          <y:Path sx="0.0" sy="0.0" tx="-93.77584771229567" ty="16.642375228658537"/>
+          <y:LineStyle color="#000000" type="dotted" width="2.0"/>
+          <y:Arrows source="none" target="none"/>
+          <y:StyleProperties>
+            <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONNECTION_TYPE_ASSOCIATION"/>
           </y:StyleProperties>
         </y:GenericEdge>
       </data>
