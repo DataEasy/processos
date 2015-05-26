@@ -559,9 +559,9 @@ remoto como 'origin'<y:LabelModel>
               <y:Geometry height="66.3984375" width="212.232421875" x="1357.60704878098" y="-361.4897816081434"/>
               <y:Fill color="#FFFFFFE6" color2="#D4D4D4CC" transparent="false"/>
               <y:BorderStyle color="#123EA2" type="line" width="1.0"/>
-              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="179.18359375" x="16.5244140625" y="10.0">Configurar 2 remotos:
-1) 'origin'= seu fork
-2) "upstream"= repo DataEasy<y:LabelModel>
+              <y:NodeLabel alignment="center" autoSizePolicy="content" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="46.3984375" modelName="custom" textColor="#000000" visible="true" width="179.51171875" x="16.3603515625" y="10.0">Configurar 2 remotos:
+1) 'origin' = seu fork
+2) 'upstream' = repo DataEasy<y:LabelModel>
                   <y:SmartNodeLabelModel distance="4.0"/>
                 </y:LabelModel>
                 <y:ModelParameter>
@@ -784,7 +784,6 @@ merge<y:LabelModel>
           </data>
         </node>
         <node id="n0::n28">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Activity.withShadow">
               <y:Geometry height="52.265625" width="127.875" x="1399.78575971848" y="-78.87054524924065"/>
@@ -811,7 +810,6 @@ máquina<y:LabelModel>
           </data>
         </node>
         <node id="n0::n29">
-          <data key="d5"/>
           <data key="d6">
             <y:GenericNode configuration="com.yworks.bpmn.Artifact.withShadow">
               <y:Geometry height="38.1328125" width="103.6640625" x="1562.6597105805909" y="-71.80413899924062"/>
@@ -836,7 +834,6 @@ máquina<y:LabelModel>
       </graph>
     </node>
     <node id="n1">
-      <data key="d5"/>
       <data key="d6">
         <y:GenericNode configuration="com.yworks.bpmn.Conversation.withShadow">
           <y:Geometry height="45.0" width="45.0" x="1836.1420233463036" y="-797.9839494163424"/>
@@ -851,8 +848,8 @@ máquina<y:LabelModel>
           </y:NodeLabel>
           <y:StyleProperties>
             <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.line.color" value="#000000"/>
-            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
             <y:Property class="com.yworks.yfiles.bpmn.view.ConversationTypeEnum" name="com.yworks.bpmn.conversationType" value="CONVERSATION_TYPE_COMMUNICATION"/>
+            <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill2" value="#d4d4d4cc"/>
             <y:Property class="java.awt.Color" name="com.yworks.bpmn.icon.fill" value="#ffffffe6"/>
             <y:Property class="com.yworks.yfiles.bpmn.view.BPMNTypeEnum" name="com.yworks.bpmn.type" value="CONVERSATION_TYPE"/>
           </y:StyleProperties>
@@ -1375,7 +1372,6 @@ máquina<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e31" source="n0::n17" target="n0::n28">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1388,7 +1384,6 @@ máquina<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e32" source="n0::n18" target="n0::n28">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="-26.146888732910156"/>
@@ -1401,7 +1396,6 @@ máquina<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e33" source="n0::n28" target="n0::n29">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1417,7 +1411,6 @@ máquina<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e34" source="n0::n28" target="n0::n1">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0">
@@ -1432,7 +1425,6 @@ máquina<y:LabelModel>
       </data>
     </edge>
     <edge id="n0::e35" source="n0::n12" target="n0::n13">
-      <data key="d9"/>
       <data key="d10">
         <y:GenericEdge configuration="com.yworks.bpmn.Connection">
           <y:Path sx="0.0" sy="0.0" tx="-93.77584771229567" ty="16.642375228658537"/>
